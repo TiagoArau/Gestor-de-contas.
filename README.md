@@ -3,17 +3,19 @@
 #### Quero que a pagina vai receber os gastos para calcular em percentagens baseado no salario
 
 ---
-- [ ] organizar os gastos 
+- [x] organizar os gastos 
 
-- [ ] conta de luz.
-- [ ] conta de telefone.
-- [ ] conta de água.
-- [ ] conta de internet.
-- [ ] conta do condominio.
-- [ ] conta do aluguel.
-- [ ] valor de condução.	
-- [ ] adicionar.
+- [x] conta de luz.
+- [x] conta de telefone.
+- [x] conta de água.
+- [x] conta de internet.
+- [x] conta do condominio.
+- [x] conta do aluguel.
+- [x] valor de condução.	
 
-- [ ] remuneração 
+
+- [x] remuneração 
 
 - [ ] converter porcentagem de gastos com base no salário.
+
+- [ ] mostrar o saldo percentual para investir.
