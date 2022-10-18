@@ -12,33 +12,52 @@
 <body>
     <header>recebidos e gastos</header>
     <main>
-        <form>
-            <label>VALOR DO SALARIO</label>
-            <br>
-            <input type="number"id="salario">
-            <br><br>
+         <!--<form>
+            
     
-            <!--<label id="">INDIQUE O VALOR DA ÁGUA:</label>
-            <br>
-            <input type="number"  id="agua" >
-            <input type="text" id="%agua" readonly="true">
+            
             <button onclick="agua()">Calcular</button>
             <br><br>
 
-            <label id="">INDIQUE O VALOR DA LUZ</label>
-            <br>
-            <input type="number"  id="luz" >
-            <input type="text" id="%luz" readonly="true">
-            <button onclick="luz()">Calcular</button>
-            <br><br>
+            
 
             <label >INDIQUE O VALOR DA REDE MOVEIS:</label>-->
-            <br>
-            <input type="number"  id="redemoveis" >
-            <input type="text" id="redemoveisresposta" readonly="true">
-            <input type="submit">
-            <br><br>
+            <form>
+                <label>VALOR DO SALARIO</label>
+                <br>
+                <input type="number"id="salario">
+                <br><br>
+                <label id="">INDIQUE O VALOR DA LUZ</label>
+                <br>
+                <input type="number"  id="luz" >
 
+                <label id="">valor em porcentagem</label>
+                <br>
+                <input type="text" id="value1" readonly />
+                <br><br>
+
+
+            </form>
+            
+                                
+                               
+                
+            
+            <div>
+            <label id="">INDIQUE O VALOR DA ÁGUA:</label>
+            <br>
+            <input type="number"  id="agua" >
+            <!--<button onclick="pagua()">Calculate</button></br>-->
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input class="invisivel" type="text" id="cagua" readonly />
+            </div>
+
+            <div>
+
+            </div>
+            <button onclick="percentageluz() + pagua()">Calculate</button></br>
+            <br><br>
             <!--<label >INDIQUE O VALOR DA INTERNET:</label>
             <br>
             <input type="number"  id="internet" >
@@ -66,15 +85,15 @@
             <input type="text" id="%conducao" readonly="true">
             <button onclick="conducao()">Calcular</button>-->
             <br><br>
-
+        
             
              
-           <button onclick="caredemoveis()">Calcular</button></br>
+           
           
         
             
         
-        </form>    
+       <!--  </form> -->   
     </main>
     <footer>Minhas redes sociais</footer>
     <script src="js.js"></script>
