@@ -13,6 +13,7 @@
 - [x] conta do condominio.
 - [x] conta do aluguel.
 - [x] valor de condução.	
+- [x] remuneração.
 
-
-- [x] remuneração 
+- [ ] Demostrar o percentual de cada conta ou lado do layout.
+- [ ] mostrar o saldo, em valor e porcentagem.
