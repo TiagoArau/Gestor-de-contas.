@@ -1,13 +1,20 @@
 
+const porcet = document.querySelector(".porcentagem");
+porcet.style.display = "none";
+
+
 function percentageluz() {
   
-   
+    
+
     var num1 = document.getElementById("luz").value;
       
     
     var num2 = document.getElementById("salario").value;
     document.getElementById("value1")
         .value = (num1 * 100) / num2 + "%";
+        porcet.style.display = "inline-block"
+       
 }
 
 
@@ -59,12 +66,5 @@ function conducao() {
           .value = (num13 * 100) / num14 + "%";
 }
 
-function totalpor() {
-    var percent = document.getElementById("salario").value;
-      
-    var num = document.getElementById("value1").value;
-    document.getElementById("value2")
-        .value = (num / 100) * percent;
-}
 
     

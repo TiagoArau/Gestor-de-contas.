@@ -14,118 +14,93 @@
     <main>
         <h3>Recebidos e gastos</h3>
         <br>
-        <form>
+        
             
             <label>VALOR DO SALARIO</label>
             <br>
             <input type="number"id="salario">
             <br><br>
-
-
-            <article id="recebe">
-            <label id="">VALOR DA LUZ</label>
-            <br>
-            <input type="number"  id="luz" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input type="text" id="value1" readonly />
-            <br>
-            </article>
             
-
-            <article id="recebe">
-            <label id="">VALOR DA ÁGUA</label>
-            <br>
-            <input type="number"  id="agua" >
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input  type="text" id="cagua" readonly />
-            <br>
-            </article>
-
-            <article id="recebe">
-            <label >VALOR DA INTERNET</label>
-            <br>
-            <input type="number"  id="internet" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input type="text" id="cinternet" readonly>
-            <br>
-            </article>
-
-            <article id="recebe">
-            <label >VALOR DA REDE MOVEL</label>
-            <br>
-            <input type="number"  id="redemoveis" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input type="text" id="redemoveisresposta" readonly>
-            <br>
-            </article>
-
-            <article id="recebe">
-            <label >VALOR DO CONDOMINIO</label>
-            <br>
-            <input type="number"  id="condominio" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input type="text" id="%condominio" readonly>
-            <br>
-            </article>
-
-            <article id="recebe">
-            <label >VALOR DO ALUGUEL</label>
-            <br>
-            <input type="number"  id="aluguel" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label id="">PORCENTAGEM</label>
-            <br>
-            <input type="text" id="%aluguel" readonly>
-            <br>
-            </article>
-
-            <article id="recebe">
-            <label >VALOR DA CONDUÇÃO</label>
-            <br>
-            <input type="number"  id="conducao" >
-            <br>
-            </article>
-
-            <article id="porcentagem">
-            <label >PORCENTAGEM</label>
-            <br>
-            <input type="text" id="%conducao" readonly>
-            <br>
-            </article>
-            <br>
-                
-        </form>
-            <input type="text" id="value2" readonly>
+            
             <section>
-            <button  onclick="totalpor()">Porcentagem</button></br>
+            <div class="porcentagem">
+            
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="value1" readonly />
+                <br>
+
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="cinternet" readonly>
+                <br>
+                
+                <label >PORCENTAGEM</label>
+                <br>
+                <input  type="text" id="cagua" readonly />
+                <br>
+                                              
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="redemoveisresposta" readonly>
+                <br>
+                
+    
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="%condominio" readonly>
+                <br>
+    
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="%aluguel" readonly>
+                <br>
+                
+                <label >PORCENTAGEM</label>
+                <br>
+                <input type="text" id="%conducao" readonly>
+                <br>
+            
+                </div>
             </section>
+
+            <div id="recebe">
+
+                <label >VALOR DA LUZ</label>
+                <br>
+                <input type="number"  id="luz" >
+                <br>
+
+                <label >VALOR DA INTERNET</label>
+                <br>
+                <input type="number"  id="internet" >
+                <br>
+                <label >VALOR DA ÁGUA</label>
+                <br>
+                <input type="number"  id="agua" >
+                <label >VALOR DA REDE MOVEL</label>
+                <br>
+                <input type="number"  id="redemoveis" >
+                <br>
+
+                <label >VALOR DO CONDOMINIO</label>
+                <br>
+                <input type="number"  id="condominio" >
+                <br>
+            
+                <label >VALOR DO ALUGUEL</label>
+                <br>
+                <input type="number"  id="aluguel" >
+                <br>
+            
+                <label >VALOR DA CONDUÇÃO</label>
+                <br>
+                <input type="number"  id="conducao" >
+                <br>
+
+           </div>
+
+             
             <section>
                 <button  onclick="percentageluz() + pagua()+
                 Porinternet() + caredemoveis() + condominio()+

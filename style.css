@@ -30,7 +30,7 @@ input{
     margin:10px;
     background:rgba(255,255,255,0.7);
 }
-article#porcentagem
+.porcentagem
 {
     float:right;
     width: 230px ;
@@ -38,7 +38,7 @@ article#porcentagem
     padding:0 0 30px 0;
    
 }
-article#recebe
+#recebe
 {
     float:left;
     width: 260px ;
