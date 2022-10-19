@@ -58,3 +58,13 @@ function conducao() {
       document.getElementById("%conducao")
           .value = (num13 * 100) / num14 + "%";
 }
+
+function totalpor() {
+    var percent = document.getElementById("salario").value;
+      
+    var num = document.getElementById("value1").value;
+    document.getElementById("value2")
+        .value = (num / 100) * percent;
+}
+
+    

@@ -7,12 +7,13 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" media="(max-width: 800px)" href="style.css">
 
-    <title>Projeto 1 for git</title>
+    <title>PERCENTUAL DE GASTOS</title>
 </head>
 <body>
-    <header>recebidos e gastos</header>
+    
     <main>
-         
+        <h3>Recebidos e gastos</h3>
+        <br>
         <form>
             
             <label>VALOR DO SALARIO</label>
@@ -21,81 +22,124 @@
             <br><br>
 
 
-
-            <label id="">INDIQUE O VALOR DA LUZ</label>
+            <article id="recebe">
+            <label id="">VALOR DA LUZ</label>
             <br>
             <input type="number"  id="luz" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input type="text" id="value1" readonly />
-            <br><br>
+            <br>
+            </article>
+            
 
-
-            <label id="">INDIQUE O VALOR DA ÁGUA:</label>
+            <article id="recebe">
+            <label id="">VALOR DA ÁGUA</label>
             <br>
             <input type="number"  id="agua" >
-            <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input  type="text" id="cagua" readonly />
-            <br><br>
+            <br>
+            </article>
 
-            <label >INDIQUE O VALOR DA INTERNET:</label>
+            <article id="recebe">
+            <label >VALOR DA INTERNET</label>
             <br>
             <input type="number"  id="internet" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input type="text" id="cinternet" readonly>
-            <br><br>
+            <br>
+            </article>
 
-            <label >INDIQUE O VALOR DA REDE MOVEL:</label>
+            <article id="recebe">
+            <label >VALOR DA REDE MOVEL</label>
             <br>
             <input type="number"  id="redemoveis" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input type="text" id="redemoveisresposta" readonly>
-            <br><br>
+            <br>
+            </article>
 
-            <label >INDIQUE O VALOR DO CONDOMINIO:</label>
+            <article id="recebe">
+            <label >VALOR DO CONDOMINIO</label>
             <br>
             <input type="number"  id="condominio" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input type="text" id="%condominio" readonly>
-            <br><br>
+            <br>
+            </article>
 
-            <label >INDIQUE O VALOR DO ALUGUEL:</label>
+            <article id="recebe">
+            <label >VALOR DO ALUGUEL</label>
             <br>
             <input type="number"  id="aluguel" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label id="">PORCENTAGEM</label>
             <br>
             <input type="text" id="%aluguel" readonly>
-            <br><br>
+            <br>
+            </article>
 
-            <label >INDIQUE O VALOR DO CONDUÇÃO:</label>
+            <article id="recebe">
+            <label >VALOR DA CONDUÇÃO</label>
             <br>
             <input type="number"  id="conducao" >
             <br>
-            <label id="">valor em porcentagem</label>
+            </article>
+
+            <article id="porcentagem">
+            <label >PORCENTAGEM</label>
             <br>
             <input type="text" id="%conducao" readonly>
-            <br><br>
+            <br>
+            </article>
+            <br>
                 
         </form>
-            
-            <button onclick="percentageluz() + pagua()+
-            Porinternet() + caredemoveis() + condominio()+
-            Caluguel()+conducao()">Calculate</button></br>
-            
+            <input type="text" id="value2" readonly>
+            <section>
+            <button  onclick="totalpor()">Porcentagem</button></br>
+            </section>
+            <section>
+                <button  onclick="percentageluz() + pagua()+
+                Porinternet() + caredemoveis() + condominio()+
+                Caluguel()+conducao()">Calculate</button></br>
+            </section>
+            <br>
+            <section>
+                <button><a href="">LIMPAR</a></button>
+            </section>
+
          
-      
+            <footer>&copy; 2022 Todos os direitos reservados</footer>
+            <script src="js.js"></script>
     </main>
-    <footer>&copy; 2022 TIago Araujo</footer>
-    <script src="js.js"></script>
+    
 </body>
 </html>

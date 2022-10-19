@@ -1,13 +1,20 @@
-*{
-    margin:0;
-    padding:0;
+html {
+    height: 100vh;
 }
-body{
-    background:url(../aulas-git-main/imagem/baner2.png)no-repeat;
-    width: 50vw; 
-    margin : 2VW 20vw;
-    text-align: center;
 
+body {
+    background:url(../aulas-git-main/imagem/baner2.png)no-repeat;
+    font-family: sans-serif;
+    width: 60vw;
+    margin: 0 20vw;
+    text-align: center;
+    padding: 1em 0;
+    height: 100vh;
+}
+main{
+    background:rgba(255,255,255,0.07);
+    width:500px;
+    text-align: center;
 }
 label{
     color:#000;
@@ -21,6 +28,48 @@ input{
     border:none;
     padding:10px;
     margin:10px;
-    background:rgba(255,255,255,0.9);
+    background:rgba(255,255,255,0.7);
+}
+article#porcentagem
+{
+    float:right;
+    width: 230px ;
+    margin-right:-02px;
+    padding:0 0 30px 0;
+   
+}
+article#recebe
+{
+    float:left;
+    width: 260px ;
+    margin-left:-30px; 
+    padding:0 0 30px 40px;
+   
 }
 
+footer
+{
+    clear:both;
+    padding:20px 0 30px 0;
+   
+}
+section{
+    clear:both;
+}
+a{
+    text-decoration:none;
+    color:#000;
+    
+}
+button{
+    border-radius:  50px;
+    border:none;
+    
+}
+@media (min-width: 1180px) {
+    body {
+        width: 90vw;
+        margin: 0 5vw;
+        font-size: 20px;
+    }
+}
