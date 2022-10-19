@@ -12,90 +12,90 @@
 <body>
     <header>recebidos e gastos</header>
     <main>
-         <!--<form>
+         
+        <form>
             
-    
-            
-            <button onclick="agua()">Calcular</button>
+            <label>VALOR DO SALARIO</label>
+            <br>
+            <input type="number"id="salario">
             <br><br>
 
-            
-
-            <label >INDIQUE O VALOR DA REDE MOVEIS:</label>-->
-            <form>
-                <label>VALOR DO SALARIO</label>
-                <br>
-                <input type="number"id="salario">
-                <br><br>
-                <label id="">INDIQUE O VALOR DA LUZ</label>
-                <br>
-                <input type="number"  id="luz" >
-
-                <label id="">valor em porcentagem</label>
-                <br>
-                <input type="text" id="value1" readonly />
-                <br><br>
 
 
-            </form>
-            
-                                
-                               
-                
-            
-            <div>
+            <label id="">INDIQUE O VALOR DA LUZ</label>
+            <br>
+            <input type="number"  id="luz" >
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="value1" readonly />
+            <br><br>
+
+
             <label id="">INDIQUE O VALOR DA ÁGUA:</label>
             <br>
             <input type="number"  id="agua" >
-            <!--<button onclick="pagua()">Calculate</button></br>-->
+            <br>
             <label id="">valor em porcentagem</label>
             <br>
-            <input class="invisivel" type="text" id="cagua" readonly />
-            </div>
-
-            <div>
-
-            </div>
-            <button onclick="percentageluz() + pagua()">Calculate</button></br>
+            <input  type="text" id="cagua" readonly />
             <br><br>
-            <!--<label >INDIQUE O VALOR DA INTERNET:</label>
+
+            <label >INDIQUE O VALOR DA INTERNET:</label>
             <br>
             <input type="number"  id="internet" >
-            <input type="text" id="%internet" readonly="true">
-            <button onclick="internet()">Calcular</button>
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="cinternet" readonly>
+            <br><br>
+
+            <label >INDIQUE O VALOR DA REDE MOVEL:</label>
+            <br>
+            <input type="number"  id="redemoveis" >
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="redemoveisresposta" readonly>
             <br><br>
 
             <label >INDIQUE O VALOR DO CONDOMINIO:</label>
             <br>
             <input type="number"  id="condominio" >
-            <input type="text" id="%condominio" readonly="true">
-            <button onclick="condominio()">Calcular</button>
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="%condominio" readonly>
             <br><br>
 
             <label >INDIQUE O VALOR DO ALUGUEL:</label>
             <br>
             <input type="number"  id="aluguel" >
-            <input type="text" id="%aluguel" readonly="true">
-            <button onclick="aluguel()">Calcular</button>
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="%aluguel" readonly>
             <br><br>
 
-            <label >INDIQUE O VALOR DE CONDUÇÃO </label>
+            <label >INDIQUE O VALOR DO CONDUÇÃO:</label>
             <br>
             <input type="number"  id="conducao" >
-            <input type="text" id="%conducao" readonly="true">
-            <button onclick="conducao()">Calcular</button>-->
+            <br>
+            <label id="">valor em porcentagem</label>
+            <br>
+            <input type="text" id="%conducao" readonly>
             <br><br>
-        
+                
+        </form>
             
-             
-           
-          
-        
+            <button onclick="percentageluz() + pagua()+
+            Porinternet() + caredemoveis() + condominio()+
+            Caluguel()+conducao()">Calculate</button></br>
             
-        
-       <!--  </form> -->   
+         
+      
     </main>
-    <footer>Minhas redes sociais</footer>
+    <footer>&copy; 2022 TIago Araujo</footer>
     <script src="js.js"></script>
 </body>
 </html>

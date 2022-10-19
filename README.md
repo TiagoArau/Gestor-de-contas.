@@ -7,7 +7,7 @@
 - [x] organizar os gastos 
 
 - [x] conta de luz.
-- [x] conta de telefone.
+- [x] conta de rede movel.
 - [x] conta de água.
 - [x] conta de internet.
 - [x] conta do condominio.
@@ -15,5 +15,5 @@
 - [x] valor de condução.	
 - [x] remuneração.
 
-- [ ] Demostrar o percentual de cada conta ou lado do layout.
+- [x] Demostrar o percentual de cada conta ou lado do layout.
 - [ ] mostrar o saldo, em valor e porcentagem.

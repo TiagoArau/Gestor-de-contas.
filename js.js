@@ -22,23 +22,19 @@ function pagua() {
 }
 
 function caredemoveis() {
-     
-
-  var num5 = document.getElementById("redemoveis").value;
+     var num5 = document.getElementById("redemoveis").value;
 
  var num6 = document.getElementById("salario").value;
 document.getElementById("redemoveisresposta")
   .value = (num5 * 100) / num6 + "%";
-  
-
 } 
 
-function internet() {
+function Porinternet() {
 
        var num7 = document.getElementById("internet").value;
     
       var num8= document.getElementById("salario").value;
-   document.getElementById("%internet")
+   document.getElementById("cinternet")
        .value = (num7 * 100) / num8 + "%";
 }
 function condominio() {
@@ -48,7 +44,7 @@ function condominio() {
     document.getElementById("%condominio")
         .value = (num9 * 100) / num10 + "%";
 }
-function aluguel() {
+function Caluguel() {
         var num11 = document.getElementById("aluguel").value;
     
         var num12= document.getElementById("salario").value;
