@@ -13,37 +13,36 @@ body {
 }
 main{
     background:rgba(255,255,255,0.07);
-    width:500px;
+    width:100%;
     text-align: center;
 }
 label{
     color:#000;
     font-size: 0.8em;
-    padding:10px;
-    margin:10px;
+    padding:0;
+    margin:0;
+text-align: center;
 
 }
 input{
     border-radius:  9px;
     border:none;
-    padding:10px;
-    margin:10px;
-    background:rgba(255,255,255,0.7);
+    padding:10px 2px 5px 0;
+    margin:20px;
+	text-align: center;
 }
 .porcentagem
 {
     float:right;
-    width: 230px ;
-    margin-right:-02px;
+    margin-right:260px;
     padding:0 0 30px 0;
    
 }
 #recebe
 {
     float:left;
-    width: 260px ;
-    margin-left:-30px; 
-    padding:0 0 30px 40px;
+    margin-left:260px; 
+    padding:0 0 30px 0;
    
 }
 
@@ -58,7 +57,7 @@ section{
 }
 a{
     text-decoration:none;
-    color:#000;
+    color:#000 ;
     
 }
 button{
@@ -66,10 +65,4 @@ button{
     border:none;
     
 }
-@media (min-width: 1180px) {
-    body {
-        width: 90vw;
-        margin: 0 5vw;
-        font-size: 20px;
-    }
-}
+
