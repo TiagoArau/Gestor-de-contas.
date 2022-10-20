@@ -75,9 +75,11 @@ function functions() {
 
 //_______________valores_recebidos______________________
         
-var num22 = document.getElementById("luz").value;
-        document.getElementById("vlrluz")
-            .value = + num22 ;
+
+            var num21 = document.getElementById("luz").value;
+            document.getElementById("vlrluz")
+            .value = + num21 ;
+        
 
         var num23 = document.getElementById("internet").value;
         document.getElementById("vlrinternet")
@@ -103,6 +105,20 @@ var num22 = document.getElementById("luz").value;
         document.getElementById("vlrconducao")
             .value = + num28 ;
 
+
+        //_____________SALDO_DINHEIRO____________________________
+
+
+        var num14= document.getElementById("salario").value;
+        var num22 = document.getElementById("luz").value;
+        var num23 = document.getElementById("internet").value;
+        var num24 = document.getElementById("agua").value;
+        var num25 = document.getElementById("redemoveis").value;
+        var num26 = document.getElementById("condominio").value;
+        var num27 = document.getElementById("aluguel").value;
+        var num28 = document.getElementById("conducao").value;
+        document.getElementById("vlrtotal")
+        .value = num14 - num22 - num23 - num24 -  num25 -num26 - num27 - num28 ;
 }
 
 

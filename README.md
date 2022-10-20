@@ -16,4 +16,4 @@
 - [x] remuneração.
 
 - [x] Demostrar o percentual de cada conta ou lado do layout.
-- [ ] mostrar o saldo, em valor e porcentagem.
+- [x] mostrar o saldo.
