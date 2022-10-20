@@ -3,21 +3,22 @@ html {
 }
 
 body {
-    background:url(./imagem/baner2.png)no-repeat;
+    background:#23272A;
     font-family: sans-serif;
     width: 60vw;
     margin: 0 20vw;
     text-align: center;
     padding: 1em 0;
     height: 100vh;
+    
 }
 main{
-    background:rgba(255,255,255,0.07);
+    
     width:100%;
     text-align: center;
 }
 label{
-    color:#000;
+    color:#fff;
     font-size: 0.8em;
     padding:0;
     margin:0;
@@ -50,6 +51,7 @@ footer
 {
     clear:both;
     padding:20px 0 30px 0;
+    color:rgb(141, 145, 110);
    
 }
 section{
@@ -61,10 +63,21 @@ a{
     text-decoration:none;
     color:#000 ;
     
+    
 }
 button{
-    border-radius:  50px;
+    border-radius:  10px;
     border:none;
+    
+    
+}
+#logo 
+{
+    width:208px;
+    height:100px;
+    clear:both;
+    background:url(./imagem/logo.png) no-repeat;
+    margin: 0 23vw;
     
 }
 
