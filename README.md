@@ -1,6 +1,8 @@
 ### Organizador de finanças 
 
-#### Quero que a pagina vai receber os gastos para calcular em percentagens baseado no salario
+#### Com base no livro: Os segredos da mente milionária. porem mostrando a porcentagem das contas e o saldo.
+
+#### Para acessar:<https://aulas-git.vercel.app/>
 
 ---
 
